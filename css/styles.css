@@ -75,7 +75,28 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 10px;
+ 
 }
 
 
 
+li { 
+ flex-direction: column;
+ align-content: center;
+ flex-wrap: wrap;
+ justify-content: center;
+ border-radius: 4px;
+ 
+
+}
+li img {
+  width: 18vw;
+  height:  20vw;
+  margin-bottom: 0.3vw;
+  border-radius: 5px;
+  
+}
